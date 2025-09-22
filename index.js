@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-app.get("/healty", (req, res) => {
+app.get("/", (req, res) => {
   res.send("OK");
 });
 
